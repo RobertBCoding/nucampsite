@@ -23,7 +23,7 @@ header h2 {
   color: #cec8ff;
 }
 
-footer {
+.site-footer {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
 }
@@ -47,3 +47,4 @@ footer {
 .navbar-toggler {
   margin-left: auto;
 }
+
