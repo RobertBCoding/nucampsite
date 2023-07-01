@@ -48,9 +48,14 @@ header h2 {
   margin-left: auto;
 }
 
-.tab-content {
+/* CSS rule for tabs which were formerly used in the aboutus.html file */
+/* .tab-content {
   border: 1px solid #DDD;
   border-top: none;
   padding: 10px;
+} */
+
+.accordion-button {
+  background-color: #d3d3d3;
 }
 
