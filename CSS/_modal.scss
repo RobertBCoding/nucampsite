@@ -1,0 +1,17 @@
+// This is a called a 'partial'. It allows for a smaller main css file
+// Note how this file is named starting with an underscore ('_')
+// Will have to write @import 'modal'; to bring file into main scss
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}

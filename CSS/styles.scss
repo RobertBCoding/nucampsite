@@ -32,7 +32,7 @@ header {
 
 header {
     h2 {
-    color: $color-pale;
+        color: $color-pale;
     }
 }
 
@@ -80,16 +80,5 @@ header {
     border: solid $color-secondary;
 }
 
-#reserveModal {
-    .modal-header {
-        background-color: $color-teal;
-        color: white;
-    }
-}
-
-#loginModal {
-    .modal-header {
-        background-color: $color-mid;
-        color: white;
-    }
-}
+// Importing from _modal.scss
+@import 'modal';
